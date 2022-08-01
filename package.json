@@ -1,8 +1,9 @@
 {
   "name": "tankhooks",
-  "version": "1.0.3",
+  "version": "1.1.2",
   "author": "jackie",
-  "description": "针对 Vue3 的实用Hooks集合",
+  "description": "Vue3实用Hooks集合",
+  "private": false,
   "keywords": [
     "vuehook",
     "hook",
@@ -21,7 +22,7 @@
   "files": [
     "build"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "test": "jest",
     "dev": "rollup -c --watch",
