@@ -60,7 +60,7 @@ const configs = [
         }
       },
       {
-        name: 'thooks',
+        name: 'tankhooks',
         file: `${outputDir}/${fn}.js`, 
         format: 'umd',
         globals: {

@@ -22,7 +22,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useMousePosition } from "thooks";
+import { useMousePosition } from "tankhooks";
 
 const { clickY, clickX } = useMousePosition();
 </script>

@@ -1,6 +1,6 @@
 {
-  "name": "thooks",
-  "version": "1.0.0",
+  "name": "tankhooks",
+  "version": "1.0.3",
   "author": "jackie",
   "description": "针对 Vue3 的实用Hooks集合",
   "keywords": [
@@ -16,7 +16,7 @@
   "types": "build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+git@github.com:ymhczm/thooks.git"
+    "url": "git+git@github.com:ymhczm/tankhooks.git"
   },
   "files": [
     "build"

@@ -13,7 +13,7 @@
 </template>
 
 <script lang="ts">
-import { useCookie } from "thooks";
+import { useCookie } from "tankhooks";
 
 export default {
   setup() {

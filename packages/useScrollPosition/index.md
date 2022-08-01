@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts" setup>
-import { useScrollPosition } from "thooks";
+import { useScrollPosition } from "tankhooks";
 
 const { scrollY } = useScrollPosition();
 </script>
