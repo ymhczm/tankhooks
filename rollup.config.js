@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 神之一手
+ * @version: 1.0.0
+ * @Author: null
+ * @Date: 2022-08-01 14:02:36
+ * @LastEditors: sueRimn
+ * @LastEditTime: 2022-08-01 16:38:43
+ */
 import { nodeResolve } from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import { terser } from 'rollup-plugin-terser';
@@ -82,34 +90,5 @@ const configs = [
   }
 ]
 
-// const configs = ['esm','cjs'].map((format)=>({
-//     input,
-//     output: {
-//       file: `${outputDir}/${format}.js`, 
-//       format,
-//       globals: {
-//         'vue': 'Vue'
-//       }
-//     },
-//     plugins: plugins,
-//     external: [
-//       'vue',
-//       'vue-router',
-//     ]
-//   })
-// )
-// configs.push({
-//   input,
-//   output: {
-//     file: `${outputDir}/index.d.ts`,
-//     format: 'esm',
-//   },
-//   plugins: [
-//     dts(),
-//   ],
-//   external: [
-//     'vue',
-//   ]
-// })
 
 export default configs
