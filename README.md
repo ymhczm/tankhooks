@@ -4,16 +4,11 @@
  * @Author: null
  * @Date: 2022-08-01 14:02:36
  * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-01 17:42:32
+ * @LastEditTime: 2022-08-02 10:37:59
 -->
 
 <h1 align="center"><b>tankhooks</b></h1>
 <h4 align="center">针对 Vue3 的实用Hooks集合</h4>
-
-<h4 align="center">
-  tankhooks也可以说是<a href="https://github.com/alibaba/hooks">ahooks</a>的Vue实现，绝大部分Api是保持一致的
-</h4>
-<br>
 
 ## 🔨 安装
 
