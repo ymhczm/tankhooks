@@ -29,6 +29,10 @@ export function createRouter() {
         path: "/useScrollPosition",
         component: () => import("./pages/useScrollPosition/index.vue"),
       },
+      {
+        path: "/useCopy",
+        component: () => import("./pages/useCopy/index.vue"),
+      },
     ],
   });
 }

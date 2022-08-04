@@ -4,7 +4,7 @@
  * @Author: null
  * @Date: 2022-08-01 14:02:36
  * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-02 10:37:59
+ * @LastEditTime: 2022-08-04 11:40:23
 -->
 
 <h1 align="center"><b>tankhooks</b></h1>
@@ -23,6 +23,9 @@
   获取滚动的距离
     import { useScrollPosition } from "tankhooks";
     const { scrollY } = useScrollPosition();
+  深copy对象
+    import { useCopy } from "tankhooks";
+    const newData = useCopy(data);
   </pre>
 
 </h4>
