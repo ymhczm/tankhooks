@@ -4,24 +4,24 @@
  * @Author: null
  * @Date: 2022-08-01 14:11:34
  * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-04 11:43:19
+ * @LastEditTime: 2022-08-09 10:18:22
 -->
 
 # useCopy
 
-深 copy 一个对象。
+copy 到剪切板
 
 ## 使用 Demo
 
 ```vue
 <script lang="ts" setup>
 import { useCopy } from "tankhooks";
-const data = {
-  a: 1,
-  b: {
-    c: 2,
-  },
-};
-const newData = useCopy();
+const value ="";
+finction async deepCopy () {
+  const newData = await useDeepCopy('value');
+  if (newData.value === "SUCCESS") {
+    alert("copy到剪切板")
+  }
+}
 </script>
 ```

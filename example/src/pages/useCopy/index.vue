@@ -4,26 +4,19 @@
  * @Author: null
  * @Date: 2022-08-01 15:19:57
  * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-04 13:47:09
+ * @LastEditTime: 2022-08-09 10:29:51
 -->
 <template>
-  <div class="contain" style="display: flex; align-items: flex-start"></div>
+  <div @click.stop="copy" class="contain" style="display: flex; align-items: flex-start">复制</div>
 </template>
 
 <script lang="ts" setup>
 import { useCopy } from "../../../build/index.js";
-const data = {
-  a: 1,
-  b: {
-    c: 2,
-  },
+const value = "测试copy";
+const copy = async () => {
+  const result = await useCopy(value);
+  console.log(result);
 };
-console.log("data", data);
-const newData = useCopy(data);
-data.b.c = 3;
-newData.a = 2;
-console.log("data", data);
-console.log("newData", newData);
 </script>
 <style>
 .contain {

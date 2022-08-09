@@ -1,6 +1,6 @@
 {
   "name": "tankhooks",
-  "version": "1.1.6",
+  "version": "1.1.10",
   "author": "jackie",
   "description": "Vue3实用Hooks集合",
   "private": false,

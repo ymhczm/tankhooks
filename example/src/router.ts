@@ -4,7 +4,7 @@
  * @Author: null
  * @Date: 2022-08-01 14:02:36
  * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-01 15:19:01
+ * @LastEditTime: 2022-08-09 10:24:52
  */
 import { createRouter as _createRouter, createWebHistory } from "vue-router";
 
@@ -32,6 +32,14 @@ export function createRouter() {
       {
         path: "/useCopy",
         component: () => import("./pages/useCopy/index.vue"),
+      },
+      {
+        path: "/useSleep",
+        component: () => import("./pages/useSleep/index.vue"),
+      },
+      {
+        path: "/useDeepCopy",
+        component: () => import("./pages/useDeepCopy/index.vue"),
       },
     ],
   });
