@@ -1,21 +1,25 @@
-<!--
- * @Descripttion: 神之一手
- * @version: 1.0.0
- * @Author: null
- * @Date: 2022-08-01 14:02:36
- * @LastEditors: sueRimn
- * @LastEditTime: 2022-08-09 10:40:38
--->
-
 <h1 align="center"><b>tankhooks</b></h1>
 <h4 align="center">针对 Vue3 的实用Hooks集合</h4>
 
-## 🔨 安装
+## 安装
+
+```bash
+$ npm i tankhooks --save
+```
+
+```bash
+$ yarn add tankhooks
+```
+
+## 文档
 
 <h4 align="center">
-  <pre>npm i <a href="https://github.com/ymhczm/tankhooks">tankhooks</a> --save</pre>
-  <i>or</i>
-  <pre>yarn add <a href="https://github.com/ymhczm/tankhooks">tankhooks</a></pre>
+  <a href="https://jackie-8.gitbook.io/tankhooks/">使用文档</a>
+</h4>
+
+## 使用简介
+
+<h4 align="center">
   <pre>
   获取鼠标点击的位置
     import { useMousePosition } from "tankhooks";
@@ -41,12 +45,6 @@
     };
   </pre>
 
-</h4>
-
-## 🏃 文档
-
-<h4 align="center">
-  <a href="">使用文档</a>
 </h4>
 
 <br>
